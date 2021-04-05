@@ -5,7 +5,7 @@ public_key = var.mysecret_key
 }
 resource "openstack_compute_instance_v2" "terraform_instance_demo" {
 provider = openstack.ovh
-count = var.server_web
+count = var.server_number
 name = "terraform_instance_demo"
 image_name = var.image_name
 flavor_name = var.flavor_name
