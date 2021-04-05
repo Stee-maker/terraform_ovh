@@ -13,7 +13,7 @@ version = "0.11.0"
 } 
  
 backend "remote"{
-hostname = "terraform.ovhcloud.tools"
+hostname = "app.terraform.io"
 organization = "tfe_workshop"
 
 workspaces {
