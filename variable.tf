@@ -13,7 +13,7 @@ default = "GRA11"
 type = string
 description = "The region where instances will be deployed"
 }
-variable "mysecret_keypub" {
+variable "mysecret_key" {
 type = string
 default = "mysecret_key"
 description = "The SSH public key"
