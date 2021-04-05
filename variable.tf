@@ -15,6 +15,7 @@ description = "The region where instances will be deployed"
 }
 variable "mysecret_keypub" {
 type = string
+default = "mysecret_key"
 description = "The SSH public key"
 }
 variable "server_number" {
