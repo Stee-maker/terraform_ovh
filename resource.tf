@@ -1,7 +1,7 @@
-resource "openstack_compute_keypair_v2" "mysecret_keypub" {
+resource "openstack_compute_keypair_v2" "mysecret_key" {
 provider = openstack.ovh
 name = "mysecret_key"
-public_key = var.mysecret_keypub
+public_key = var.mysecret_key
 }
 resource "openstack_compute_instance_v2" "terraform_instance_demo" {
 provider = openstack.ovh
