@@ -17,3 +17,6 @@ variable "mysecret_key" {
 type = string
 description = "The SSH public key"
 }
+variable "server_number" {
+  default = 1  
+  }
