@@ -9,7 +9,7 @@ type = string
 description = "The flavor of our instances"
 }
 variable "region"{
-default = "GRA7"
+default = "GRA11"
 type = string
 description = "The region where instances will be deployed"
 }
