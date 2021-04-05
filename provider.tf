@@ -13,8 +13,8 @@ version = "0.11.0"
 } 
  
 backend "remote"{
-hostmane = "terraform.ovhcloud.tools"
-organizaeion = "tfe_workshop"
+hostname = "terraform.ovhcloud.tools"
+organization = "tfe_workshop"
 
 workspaces {
 name = "terraform_ovh"
