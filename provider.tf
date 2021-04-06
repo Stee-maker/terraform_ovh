@@ -26,7 +26,7 @@ name = "terraform_ovh"
 provider "openstack" {
 auth_url = "https://auth.cloud.ovh.net/v3/"
 alias = "ovh"
-region = var.region
+region = "GRA11"
   }
 
 provider "ovh" {
