@@ -1,3 +1,3 @@
 variable "server_number" {
-  count = 2
+  default = 2
   }
